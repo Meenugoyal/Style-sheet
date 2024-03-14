@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+#logo-div
+{
+    width: 100%;
+    min-height: 100px;
+    background-color: gray;
+    padding-left: 2%;
+    line-height: 100px;
+    margin-bottom: 10px;
+}
+#nav-div
+{
+    width: 100%;
+    min-height: 50px;
+    background-color: gray;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+#header-banner-div
+{
+    width: 100%;
+    min-height: 150px;
+    background-color: gray;
+    text-align: center;
+    line-height: 150px;
+    margin-bottom: 10px;
+}
+#main-div
+{
+    width: 100%;
+    min-height: 600px;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+#siderbar-div
+{
+    width: 20%;
+    min-height: 600px;
+    background-color: lightgray;
+    float: left;
+    text-align: center;
+    line-height: 600px;
+}
+#bodyarea-div
+{
+    width: 80%;
+    min-height: 600px;
+    background-color: gray;
+    float: right;
+    text-align: center;
+    line-height: 600px;
+}
+.clearfix::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+#footer-div
+{
+    width: 100%;
+    min-height: 100px;
+    background-color: gray;
+    text-align: center;
+    line-height: 100px;
+}
+#wrapper-div
+{
+    width: 20%;
+    background-color: blanchedalmond;
+    margin: auto;
+}
